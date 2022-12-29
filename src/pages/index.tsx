@@ -1,6 +1,6 @@
 import { NextPage } from "next";
 import Head from "next/head";
-import { ResultsWrapper } from "../components/Results/ResultsWrapper/ResultsWrapper";
+import { ResultsWrapper } from "../components/Results";
 import { SearchBar } from "../components/Search";
 
 const Home: NextPage = () => {

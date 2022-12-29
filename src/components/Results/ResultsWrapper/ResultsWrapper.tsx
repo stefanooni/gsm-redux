@@ -1,7 +1,7 @@
 import { memo, useMemo } from "react";
 import { useSelector } from "react-redux";
 import { RootState } from "../../../states/_global";
-import { Results } from "../Results/Results";
+import { Results } from "..";
 
 export const ResultsWrapper = memo(() => {
   const searchTerm = useSelector((state: RootState) => state.search.value);

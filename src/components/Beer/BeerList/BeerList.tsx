@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Beer } from "..";
 import type { Beer as BeerType } from "../../../types/beer.types";
-import { gridClass } from "../../Results/Results/Results";
+import { gridClass } from "../../Results";
 
 export const BeerList: FC<{ beers: BeerType[] }> = ({ beers }) => {
   return (

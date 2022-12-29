@@ -1,11 +1,11 @@
 import { startCase } from "lodash";
-import { GetStaticProps, NextPage } from "next";
+import { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useMemo } from "react";
-import { useSelector, useStore } from "react-redux";
+import { useSelector } from "react-redux";
 import { Bookmarker } from "../../components/Beer";
 import { useGetBeersByNameQuery } from "../../states/results.state";
 import { RootState } from "../../states/_global";
