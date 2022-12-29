@@ -3,7 +3,7 @@
 Some notes when implementing this:
 
 - You can sunscribe to state changes in a similar fashion to effects in RecoilJS (useful for persistance of favourited beers in LocalStorage or SessionStorage). Unlike RecoilJS this is limited to implementation at a component level.
-- Setting values to udpate the "store" is done via `useDiaspatch` and an action passed.
+- Setting values to udpate the "store" is done via `useDispatch` and an action passed.
 - Typescript support is not so well documentated
 - Documentation is a little tricky to find what you need, often Googling and finding references to the correct part of documentation from a similar SO question.
 - API requests need to be made using the `createApi` vs `createSlice` initiator. Ther syntax for such is a little tricky to understand.
